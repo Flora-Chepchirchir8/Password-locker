@@ -157,7 +157,7 @@ def main():
             print('\n')
             print('\n')
             print("Byeee welcome back")
-            print(","*30)
+            print("."*30)
             break    
        
 if __name__=='__main__':
