@@ -27,23 +27,23 @@ class Credentials:
         new_credentials = Credentials(account, email, password)
         return new_credentials
     @classmethod
-     def find_account(cls, account):
-         '''
-         search for accounts
-         '''
-         for credentials in cls.credentials_list:
-             if credentials.account == account:
-                 return credentials    
-    # @classmethod
-    # def credentials_exists(cls, account):
-    #     '''
-    #     confirm a class actually exists
-    #     '''
-    #     for credentials in cls.credentials_list:
-    #         if credentials.account == account:
-    #             return True
-    #     return False  
-    #     #Display credentials
+    def find_account(cls, account):
+        '''
+        search for accounts
+        '''
+        for credentials in cls.credentials_list:
+            if credentials.account == account:
+                return credentials    
+    @classmethod
+    def credentials_exists(cls, account):
+        '''
+        confirm a class actually exists
+        '''
+        for credentials in cls.credentials_list:
+            if credentials.account == account:
+                return True
+        return False  
+        #Display credentials
     # @classmethod
     # def display_credentials(cls):
     #     '''
