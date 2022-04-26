@@ -14,12 +14,12 @@ class Credentials:
        '''
        Credentials.credentials_list.append(self)
 
-    # def delete_credentials(self):
-    #     '''
-    #     delete credentials 
-    #     '''
-    #     Credentials.credentials_list.remove(self) 
-    #         # create credentials
+    def delete_credentials(self):
+        '''
+        delete credentials 
+        '''
+        Credentials.credentials_list.remove(self) 
+            # create credentials
     # def create_credentials(account, email, password):
     #     '''
     #     method credentials details
