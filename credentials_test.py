@@ -6,15 +6,15 @@
     def setUp(self):
         self.new_credentials = Credentials("Gmail", "florachirry80@gmail.com", "florachirry8")
 #6th test
-#     def test_init(self):
-#         '''
-#         check if instances initialize as expected
-#         '''
-#         self.assertEqual(self.new_credentials.account, "Gmail")
-#         self.assertEqual(self.new_credentials.email, "florachirry80@gmail.com")
-#         self.assertEqual(self.new_credentials.password, "florachirry8")
-#         #7th test
-#     def test_save_credentials(self):
+    def test_init(self):
+        '''
+        check if instances initialize as expected
+        '''
+        self.assertEqual(self.new_credentials.account, "Gmail")
+        self.assertEqual(self.new_credentials.email, "florachirry80@gmail.com")
+        self.assertEqual(self.new_credentials.password, "florachirry8")
+        #7th test
+    def test_save_credentials(self):
 #         '''
 #         check if credentials can be saved
 #         '''  
