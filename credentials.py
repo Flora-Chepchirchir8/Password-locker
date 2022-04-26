@@ -20,12 +20,12 @@ class Credentials:
         '''
         Credentials.credentials_list.remove(self) 
             # create credentials
-    # def create_credentials(account, email, password):
-    #     '''
-    #     method credentials details
-    #     '''
-    #     new_credentials = Credentials(account, email, password)
-    #     return new_credentials
+    def create_credentials(account, email, password):
+        '''
+        method credentials details
+        '''
+        new_credentials = Credentials(account, email, password)
+        return new_credentials
     # @classmethod
     # def find_account(cls, account):
     #     '''
