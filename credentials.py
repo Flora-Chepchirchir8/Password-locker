@@ -44,10 +44,10 @@ class Credentials:
                 return True
         return False  
         #Display credentials
-    # @classmethod
-    # def display_credentials(cls):
-    #     '''
-    #     method that returns all credentials
-    #     '''
-    #     return cls.credentials_list
+    @classmethod
+    def display_credentials(cls):
+        '''
+        method that returns all credentials
+        '''
+        return cls.credentials_list
   
