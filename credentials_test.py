@@ -3,9 +3,9 @@
  from credentials import Credentials
  # import pyperclip
  class TestCredentials(unittest.TestCase):
-#     def setUp(self):
-#         self.new_credentials = Credentials("Gmail", "florachirry80@gmail.com", "florachirry8")
-# #6th test
+    def setUp(self):
+        self.new_credentials = Credentials("Gmail", "florachirry80@gmail.com", "florachirry8")
+#6th test
 #     def test_init(self):
 #         '''
 #         check if instances initialize as expected
