@@ -1,8 +1,8 @@
  #!usr/bin/env python3.9
  import unittest#import unittest module
-# from credentials import Credentials
-# # import pyperclip
-# class TestCredentials(unittest.TestCase):
+ from credentials import Credentials
+ # import pyperclip
+ class TestCredentials(unittest.TestCase):
 #     def setUp(self):
 #         self.new_credentials = Credentials("Gmail", "florachirry80@gmail.com", "florachirry8")
 # #6th test
