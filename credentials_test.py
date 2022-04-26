@@ -15,11 +15,11 @@
         self.assertEqual(self.new_credentials.password, "florachirry8")
         #7th test
     def test_save_credentials(self):
-#         '''
-#         check if credentials can be saved
-#         '''  
-#         self.new_credentials.save_credentials()
-#         self.assertEqual(len(Credentials.credentials_list),1)
+       '''
+       check if credentials can be saved
+       '''  
+       self.new_credentials.save_credentials()
+       self.assertEqual(len(Credentials.credentials_list),1)
 # #save multiple credentials
 #     def test_saving_multiple_credentials(self):
 #         '''
