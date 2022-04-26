@@ -8,11 +8,11 @@ class Credentials:
        self.account = account
        self.email = email
        self.password = password
-    # def save_credentials(self):
-    #     '''
-    #     self credentials in credential_list
-    #     '''
-    #     Credentials.credentials_list.append(self)
+   def save_credentials(self):
+       '''
+       self credentials in credential_list
+       '''
+       Credentials.credentials_list.append(self)
 
     # def delete_credentials(self):
     #     '''
